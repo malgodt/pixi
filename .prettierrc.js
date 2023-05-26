@@ -1,0 +1,16 @@
+module.exports = {
+    singleAttributePerLine: true,
+    semi: true,
+    tabWidth: 4,
+    printWidth: 90,
+    endOfLine: 'lf',
+    phpVersion: '8.1',
+    singleQuote: true,
+    arrowParens: 'avoid',
+    bracketSpacing: true,
+    trailingComma: 'es5',
+    proseWrap: 'preserve',
+    vueIndentScriptAndStyle: true,
+    htmlWhitespaceSensitivity: 'ignore',
+    plugins: [require('prettier-plugin-tailwindcss')],
+};
